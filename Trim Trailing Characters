@@ -1,0 +1,13 @@
+/* Useful for removing trailing characters of a defined type. 
+   Example remove all trailing . in     Lorem Ipsum...
+   
+   Step 1. Select the column you want to apply the trim to and perform a normal transform > trim. 
+   Step 2. Go to the Advanced Editor and find the newly added trim step. 
+   Step 3. Change the code Text.Trim  to  each Text.TrimEnd(_,".")
+   
+           Change the . do any wanted character.
+*/
+
+each Text.TrimEnd(_,".")
+
+
