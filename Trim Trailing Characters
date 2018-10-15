@@ -8,6 +8,6 @@
            Change the . do any wanted character.
 */
 
+// https://msdn.microsoft.com/en-us/query-bi/m/text-trimend
+
 each Text.TrimEnd(_,".")
-
-
